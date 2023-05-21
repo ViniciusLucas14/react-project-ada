@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react"
 
-const minhaLista = [
-    { key: 1, value: "Carne" },
-    { key: 2, value: "Legumes" },
-    { key: 3, value: "Alimentos" }
-]
-
 export default function FetchData() {
     type Tarefa = any
     const [tarefas, setTarefas] = useState<Tarefa[]>([])
